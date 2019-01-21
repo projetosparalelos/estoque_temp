@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     # Minhas apps
     'projeto.core',
+    'projeto.produto',
     'projeto.estoque',
 ]
 
