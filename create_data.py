@@ -37,22 +37,22 @@ class ProdutoClass:
 
 
 produtos = (
-    'apontador',
-    'caderno 100 folhas',
-    'caderno capa dura 200 folhas',
-    'caneta esferográfica azul',
-    'caneta esferográfica preta',
-    'caneta esferográfica vermelha',
-    'durex',
-    'giz de cera 12 cores',
-    'lapiseira 0.3 mm',
-    'lapiseira 0.5 mm',
-    'lapiseira 0.7 mm',
-    'lápis de cor 24 cores',
-    'lápis',
-    'papel sulfite A4 pacote 100 folhas',
-    'pasta elástica',
-    'tesoura',
+    'Apontador',
+    'Caderno 100 folhas',
+    'Caderno capa dura 200 folhas',
+    'Caneta esferográfica azul',
+    'Caneta esferográfica preta',
+    'Caneta esferográfica vermelha',
+    'Durex',
+    'Giz de cera 12 cores',
+    'Lapiseira 0.3 mm',
+    'Lapiseira 0.5 mm',
+    'Lapiseira 0.7 mm',
+    'Lápis de cor 24 cores',
+    'Lápis',
+    'Papel sulfite A4 pacote 100 folhas',
+    'Pasta elástica',
+    'Tesoura',
 )
 
 tic = timeit.default_timer()
