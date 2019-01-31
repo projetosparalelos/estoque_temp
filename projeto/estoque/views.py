@@ -68,3 +68,10 @@ def estoque_saida_list(request):
     objects = EstoqueSaida.objects.all()
     context = {'object_list': objects}
     return render(request, template_name, context)
+
+
+def estoque_saida_detail(request, pk):
+    template_name = 'estoque_saida_detail.html'
+    obj = EstoqueSaida.objects.get(pk=pk)
+    context = {'object': obj}
+    return render(request, template_name, context)
