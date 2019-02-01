@@ -21,4 +21,5 @@ pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
 python manage.py createsuperuser --username='admin' --email=''
+python create_data.py
 ```
